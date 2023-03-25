@@ -1,0 +1,20 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/Materials/Grass/T_Tierra.uasset",
+				"D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/Materials/Grass/T_Tierra_High.uasset",
+				"D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/Materials/Grass/T_Tierra_si.uasset",
+				"D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/Materials/Grass/T_Pastito.uasset",
+				"D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/Materials/Grass/T_Pastito_High.uasset",
+				"D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/Materials/Grass/T_Pastito_si.uasset",
+				"D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/Materials/Grass_dirt.uasset",
+				"D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/StarterContent/Props/Materials/M_Chair.uasset",
+				"D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+			]
+		}
+	]
+}

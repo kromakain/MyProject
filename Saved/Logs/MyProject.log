@@ -2857,3 +2857,126 @@ Script Stack (0 frames) :
 [2023.03.25-12.04.14:160][340]SourceControl:  create mode 100644 Content/Materials/Grass/T_tierraForestal_ALturas.uasset
 [2023.03.25-12.04.14:160][340]SourceControl:  create mode 100644 Content/Materials/MTF_Grass.uasset
 [2023.03.25-12.04.14:180][340]SourceControl: Commited [master 6a80a64] Terreno plano, multi textura, solo 2 por lo pronto.
+[2023.03.25-12.07.52:380][725]LogShaderCompilers: Display: ================================================
+[2023.03.25-12.07.52:380][725]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Total job queries 7710, among them cache hits 6160 (79.90%)
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Tracking 986 distinct input hashes that result in 456 distinct outputs (46.25%)
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: RAM used: 2.73 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.17%
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Shaders Compiled: 498
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Jobs assigned 498, completed 498 (100.00%)
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Average time worker was idle: 39.91 s
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Time job spent in pending queue: average 0.23 s, longest 4.77 s
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Job execution time: average 2.79 s, max 7.84 s
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Job life time (pending + execution): average 3.02 s, max 7.95
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 81.62 s
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Jobs were issued in 292 batches (only local compilation was used), average 1.71 jobs/batch
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Average processing rate: 6.10 jobs/sec
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Total thread time: 338.16 s
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Total thread preprocess time: 22.97 s
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Percentage time preprocessing: 6.79%
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Effective parallelization: 4.14 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   20 times, average 1.96 sec, max 2.96 sec, min 0.69 sec)
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   20 times, average 0.93 sec, max 1.12 sec, min 0.69 sec)
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   20 times, average 0.92 sec, max 1.18 sec, min 0.58 sec)
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   20 times, average 0.92 sec, max 1.21 sec, min 0.61 sec)
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   20 times, average 0.91 sec, max 1.12 sec, min 0.76 sec)
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display:                                             FDebugViewModePS - 11.60% of total time (compiled   20 times, average 1.96 sec, max 2.96 sec, min 0.69 sec)
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.47% of total time (compiled   61 times, average 0.64 sec, max 0.94 sec, min 0.40 sec)
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.08% of total time (compiled   61 times, average 0.56 sec, max 0.77 sec, min 0.40 sec)
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.63% of total time (compiled   54 times, average 0.48 sec, max 0.68 sec, min 0.39 sec)
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 5.47% of total time (compiled   20 times, average 0.93 sec, max 1.12 sec, min 0.69 sec)
+[2023.03.25-12.07.52:381][725]LogShaderCompilers: Display: ================================================
+[2023.03.25-12.07.52:403][725]LogViewport: Scene viewport resized to 1170x902, mode Windowed.
+[2023.03.25-12.07.54:208][912]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'No pudo encontrar el pincel 'AssetThumbnail.Border'.'
+[2023.03.25-12.07.54:223][912]LogViewport: Scene viewport resized to 60x60, mode Windowed.
+[2023.03.25-12.08.29:470][909]LogInterchangeEngine: [Pending] Importing
+[2023.03.25-12.08.29:471][909]LogInterchangeImport: JPEG file [D:/Data/Escritorio/Facultad/Escenarios De videojuegos/T_montaña1.jpeg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2023.03.25-12.08.29:477][910]LogTexture: Display: Building textures: /Game/Materials/HeightMap/T_montaña1.T_montaña1 (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 43.905543 MB), EncodeSpeed: Fast
+[2023.03.25-12.08.29:481][910]LogInterchangeEngine: [Success] Import Done
+[2023.03.25-12.08.29:528][910]LogInterchangeEngine: [Success] Import Done
+[2023.03.25-12.08.45:531][328]LogInterchangeEngine: [Pending] Importing
+[2023.03.25-12.08.45:532][328]LogInterchangeImport: JPEG file [D:/Data/Escritorio/Facultad/Escenarios De videojuegos/T_Montaña2.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2023.03.25-12.08.45:538][329]LogTexture: Display: Building textures: /Game/Materials/HeightMap/T_Montaña2.T_Montaña2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.03.25-12.08.45:557][329]LogInterchangeEngine: [Success] Import Done
+[2023.03.25-12.08.45:560][329]LogInterchangeEngine: [Success] Import Done
+[2023.03.25-12.09.17:629][318]Cmd: TRANSACTION UNDO
+[2023.03.25-12.09.17:629][318]LogEditorTransaction: Undo Edición del terreno: Esculpir
+[2023.03.25-12.09.17:691][318]LogTexture: Display: Building textures: /Game/Menu/LandscapeEV.LandscapeEV:PersistentLevel.Landscape_0.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.25-12.09.17:791][318]LogViewport: Scene viewport resized to 60x60, mode Windowed.
+[2023.03.25-12.09.18:300][336]Cmd: TRANSACTION UNDO
+[2023.03.25-12.09.18:300][336]LogEditorTransaction: Undo Edición del terreno: Esculpir
+[2023.03.25-12.09.18:363][336]LogTexture: Display: Building textures: /Game/Menu/LandscapeEV.LandscapeEV:PersistentLevel.Landscape_0.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.25-12.09.18:407][336]LogViewport: Scene viewport resized to 60x60, mode Windowed.
+[2023.03.25-12.09.41:271][702]Cmd: TRANSACTION UNDO
+[2023.03.25-12.09.41:271][702]LogEditorTransaction: Undo Edición del terreno: Esculpir
+[2023.03.25-12.09.41:345][702]LogTexture: Display: Building textures: /Game/Menu/LandscapeEV.LandscapeEV:PersistentLevel.Landscape_0.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.25-12.09.41:441][702]LogViewport: Scene viewport resized to 60x60, mode Windowed.
+[2023.03.25-12.09.42:229][756]Cmd: TRANSACTION UNDO
+[2023.03.25-12.09.42:229][756]LogEditorTransaction: Undo Edición del terreno: Esculpir
+[2023.03.25-12.09.42:336][756]LogViewport: Scene viewport resized to 60x60, mode Windowed.
+[2023.03.25-12.14.16:114][285]LogTexture: Display: Building textures: /Game/Menu/LandscapeEV.LandscapeEV:PersistentLevel.Landscape_0.Heightmap_0 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.25-12.14.43:979][140]LogViewport: Scene viewport resized to 60x60, mode Windowed.
+[2023.03.25-12.16.59:854][842]LogViewport: Scene viewport resized to 60x60, mode Windowed.
+[2023.03.25-12.18.27:392][167]Cmd: TRANSACTION UNDO
+[2023.03.25-12.18.27:392][167]LogEditorTransaction: Undo Edición del terreno: Esculpir
+[2023.03.25-12.18.27:458][167]LogTexture: Display: Building textures: /Game/Menu/LandscapeEV.LandscapeEV:PersistentLevel.Landscape_0.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.25-12.18.27:538][167]LogViewport: Scene viewport resized to 60x60, mode Windowed.
+[2023.03.25-12.18.38:059][340]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.25-12.18.38:111][340]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.03.25-12.18.38:117][340]LogTexture: Display: Building textures: /Game/Menu/LandscapeEV.LandscapeEV:PersistentLevel.Landscape_0.Heightmap_0 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.03.25-12.18.38:215][340]LogSavePackage: Moving output files for package: /Game/Menu/LandscapeEV
+[2023.03.25-12.18.38:215][340]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/LandscapeEVB3E95E084B47011CB4BDDEBFFE538EC2.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/Menu/LandscapeEV.umap'
+[2023.03.25-12.18.38:229][340]LogFileHelpers: Saving map 'LandscapeEV' took 0.127
+[2023.03.25-12.18.38:235][340]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 7.94 sec)
+[2023.03.25-12.18.38:239][340]AssetCheck: New page: Asset Save: LandscapeEV
+[2023.03.25-12.18.38:239][340]LogContentValidation: Display: Validating /Script/Engine.World /Game/Menu/LandscapeEV.LandscapeEV
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Bridge/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Bridge/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/2D/Paper2D/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Interchange/Runtime/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/Metasound/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/Synthesis/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/WaveTable/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/GLTFImporter/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/GLTFImporter/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Animation/ControlRig/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/VirtualProduction/Takes/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Animation/IKRig/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/FX/Niagara/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Enterprise/GLTFExporter/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Media/MediaPlate/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosCaching/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/Dataflow/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/UVEditor/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/UVEditor/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.18.58:032][598]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.25-12.19.07:766][598]LogSlate: Window 'Enviar archivos' being destroyed
+[2023.03.25-12.19.08:675][598]LogSourceControl: commit successful: [master 660937e] prueba 1 de terreno
+[2023.03.25-12.19.08:730][598]SourceControl: [master 660937e] prueba 1 de terreno
+[2023.03.25-12.19.08:730][598]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2023.03.25-12.19.08:749][598]SourceControl: Commited [master 660937e] prueba 1 de terreno.

@@ -8225,3 +8225,1192 @@ Script Stack (0 frames) :
 [2023.03.26-09.57.22:721][  6]SourceControl:  create mode 100644 Content/modelos/puerta/InteriorDoor_SPEC.uasset
 [2023.03.26-09.57.22:744][  6]SourceControl: Commited [master 5d4a06f] modelos.
 [2023.03.26-09.57.30:652][773]LogEditorViewport: Clicking Background
+[2023.03.26-10.03.32:951][798]LogContentBrowser: Deferred new asset folder creation: Carpeta nueva
+[2023.03.26-10.03.32:963][798]LogContentBrowser: Creating deferred item: Carpeta nueva
+[2023.03.26-10.03.32:969][799]LogContentBrowser: Renaming the item being created (Deferred Item: Carpeta nueva).
+[2023.03.26-10.03.40:641][641]LogContentBrowser: Attempting asset rename: Carpeta nueva -> Carpeta nueva
+[2023.03.26-10.03.40:641][641]LogContentBrowser: End creating deferred item Carpeta nueva
+[2023.03.26-10.03.44:144][968]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\lentes\glasses_02.FBX)
+[2023.03.26-10.03.44:151][968]LogFbx: Loading FBX Scene from D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\lentes\glasses_02.FBX
+[2023.03.26-10.03.44:168][968]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.26-10.03.45:207][968]LogSlate: Window 'Opciones de importación de FBX' being destroyed
+[2023.03.26-10.03.45:419][968]LogStaticMesh: Display: Generando la malla estática glasses_02...
+[2023.03.26-10.03.45:573][968]LogStaticMesh: Built static mesh [0.15s] /Game/modelos/lentes/glasses_02.glasses_02
+[2023.03.26-10.03.45:627][968]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.03.26-10.03.46:871][ 34]LogShaderCompilers: Display: ================================================
+[2023.03.26-10.03.46:871][ 34]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.26-10.03.46:871][ 34]LogShaderCompilers: Display: Total job queries 33605, among them cache hits 31442 (93.56%)
+[2023.03.26-10.03.46:871][ 34]LogShaderCompilers: Display: Tracking 1982 distinct input hashes that result in 666 distinct outputs (33.60%)
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: RAM used: 5.64 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.34%
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Shaders Compiled: 1341
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Jobs assigned 1349, completed 1341 (99.41%)
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Average time worker was idle: 86.45 s
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Time job spent in pending queue: average 0.55 s, longest 8.66 s
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Job execution time: average 1.98 s, max 10.52 s
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Job life time (pending + execution): average 2.53 s, max 11.43
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 237.57 s
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Jobs were issued in 1039 batches (only local compilation was used), average 1.30 jobs/batch
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Average processing rate: 5.64 jobs/sec
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Total thread time: 935.71 s
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Total thread preprocess time: 63.93 s
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Percentage time preprocessing: 6.83%
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Effective parallelization: 3.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   46 times, average 2.25 sec, max 5.90 sec, min 0.44 sec)
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   51 times, average 0.97 sec, max 1.26 sec, min 0.59 sec)
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   51 times, average 0.97 sec, max 1.32 sec, min 0.69 sec)
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   51 times, average 0.97 sec, max 1.23 sec, min 0.67 sec)
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    2 times, average 0.96 sec, max 1.30 sec, min 0.62 sec)
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.16% of total time (compiled  182 times, average 0.68 sec, max 1.07 sec, min 0.40 sec)
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.40% of total time (compiled  178 times, average 0.60 sec, max 2.17 sec, min 0.41 sec)
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display:                                             FDebugViewModePS - 11.05% of total time (compiled   46 times, average 2.25 sec, max 5.90 sec, min 0.44 sec)
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.17% of total time (compiled  156 times, average 0.49 sec, max 0.81 sec, min 0.35 sec)
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.31% of total time (compiled   51 times, average 0.97 sec, max 1.26 sec, min 0.59 sec)
+[2023.03.26-10.03.46:872][ 34]LogShaderCompilers: Display: ================================================
+[2023.03.26-10.03.55:730][820]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/modelos/lentes/Material__3.Material__3
+[2023.03.26-10.03.55:733][820]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.26-10.03.55:900][820]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.03.55:900][820]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.03.55:900][820]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.03.55:908][820]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.03.26-10.03.55:984][822]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.03.55:984][822]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.03.55:984][822]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.03.55:984][822]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.03.55:984][822]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.04.12:821][286]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.03.26-10.04.12:840][286]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.03.26-10.04.22:862][ 12]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/modelos/lentes/Material__4.Material__4
+[2023.03.26-10.04.22:865][ 12]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.26-10.04.22:948][ 12]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.04.22:948][ 12]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.04.22:948][ 12]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.04.22:955][ 12]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.03.26-10.04.23:029][ 14]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.04.23:029][ 14]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.04.23:029][ 14]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.04.23:029][ 14]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.04.23:029][ 14]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.04.27:597][320]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/modelos/lentes/Material__6.Material__6
+[2023.03.26-10.04.27:600][320]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.26-10.04.27:685][320]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.04.27:685][320]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.04.27:685][320]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.04.27:725][320]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.03.26-10.04.27:775][322]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.04.27:775][322]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.04.27:775][322]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.04.27:775][322]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.04.27:775][322]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.04.29:490][428]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/modelos/lentes/Material__7.Material__7
+[2023.03.26-10.04.29:493][428]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.26-10.04.29:577][428]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.04.29:577][428]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.04.29:577][428]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.04.29:614][428]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.03.26-10.04.29:664][430]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.04.29:664][430]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.04.29:664][430]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.04.29:664][430]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.04.29:664][430]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.04.31:152][522]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/modelos/lentes/Material__8.Material__8
+[2023.03.26-10.04.31:156][522]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.26-10.04.31:247][522]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.04.31:247][522]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.04.31:247][522]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.04.31:284][522]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.03.26-10.04.31:337][524]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.04.31:337][524]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.04.31:337][524]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.04.31:338][524]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.04.31:338][524]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.04.32:610][601]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/modelos/lentes/Material__9.Material__9
+[2023.03.26-10.04.32:613][601]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.26-10.04.32:704][601]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.04.32:704][601]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.04.32:704][601]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.04.32:744][601]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.03.26-10.04.32:797][603]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.04.32:797][603]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.04.32:797][603]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.04.32:797][603]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.04.32:797][603]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.04.34:100][681]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/modelos/lentes/Material__10.Material__10
+[2023.03.26-10.04.34:103][681]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.26-10.04.34:190][681]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.04.34:190][681]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.04.34:190][681]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.04.34:224][681]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.03.26-10.04.34:279][683]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.04.34:279][683]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.04.34:279][683]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.04.34:279][683]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.04.34:279][683]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.04.37:901][930]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/modelos/lentes/glasses_02.glasses_02
+[2023.03.26-10.04.37:906][930]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.26-10.04.38:181][930]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.03.26-10.05.01:855][574]LogSlate: Window 'Seleccionador de color' being destroyed
+[2023.03.26-10.05.01:863][574]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.05.01:863][574]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.01:863][574]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.05.01:904][577]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.05.01:904][577]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.05.01:904][577]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.05.01:904][577]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.01:904][577]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.05.04:078][728]LogMaterialEditor: Applying material Material__8
+[2023.03.26-10.05.04:563][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.03.26-10.05.05:318][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.03.26-10.05.12:986][258]LogSlate: Window 'Seleccionador de color' being destroyed
+[2023.03.26-10.05.12:993][258]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.05.12:993][258]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.12:993][258]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.05.13:035][261]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.05.13:035][261]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.05.13:035][261]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.05.13:035][261]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.13:035][261]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.05.14:194][343]LogEditorTransaction: Undo Editar Valor predeterminado
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:347][343]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.05.14:454][345]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.05.14:454][345]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.05.14:454][345]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.05.14:454][345]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:454][345]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.05.14:523][346]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.05.14:523][346]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.05.14:523][346]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.05.14:523][346]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:523][346]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.14:524][346]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.05.22:699][901]LogSlate: Window 'Seleccionador de color' being destroyed
+[2023.03.26-10.05.22:706][901]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.05.22:707][901]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.22:707][901]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.05.22:747][904]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.05.22:747][904]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.05.22:747][904]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.05.22:747][904]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.22:747][904]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.05.27:664][240]LogMaterialEditor: Applying material Material__4
+[2023.03.26-10.05.28:101][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.03.26-10.05.29:002][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.03.26-10.05.44:566][323]LogSlate: Window 'Seleccionador de color' being destroyed
+[2023.03.26-10.05.44:573][323]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.05.44:573][323]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.44:573][323]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.05.44:614][326]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.05.44:614][326]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.05.44:614][326]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.05.44:614][326]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.05.44:614][326]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.06.13:613][519]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.06.13:613][519]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.06.13:613][519]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.06.14:442][569]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.06.14:442][569]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.06.14:442][569]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.06.14:442][569]MaterialEditorStats: Shader Count: 3
+[2023.03.26-10.06.14:555][577]MaterialEditorStats: Base pass shader: 165 instructions
+[2023.03.26-10.06.14:555][577]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.06.14:555][577]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.06.14:555][577]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.06.14:555][577]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.06.19:600][926]LogSlate: Window 'Seleccionador de color' being destroyed
+[2023.03.26-10.06.19:608][926]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.06.19:608][926]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.06.19:608][926]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.06.19:648][929]MaterialEditorStats: Base pass shader: 165 instructions
+[2023.03.26-10.06.19:648][929]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.06.19:648][929]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.06.19:648][929]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.06.19:648][929]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.06.22:602][140]LogMaterialEditor: Applying material Material__3
+[2023.03.26-10.06.23:035][140]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.03.26-10.06.23:733][140]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.03.26-10.06.39:252][212]LogSlate: Window 'Seleccionador de color' being destroyed
+[2023.03.26-10.06.39:260][212]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.06.39:260][212]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.06.39:260][212]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.06.39:302][215]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.06.39:302][215]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.06.39:302][215]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.06.39:302][215]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.06.39:303][215]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.06.41:359][362]LogMaterialEditor: Applying material Material__4
+[2023.03.26-10.06.41:790][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.03.26-10.06.41:994][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.03.26-10.06.44:808][561]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.06.44:808][561]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.06.44:808][561]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.06.45:662][617]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.06.45:662][617]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.06.45:662][617]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.06.45:662][617]MaterialEditorStats: Shader Count: 3
+[2023.03.26-10.06.45:756][624]MaterialEditorStats: Base pass shader: 165 instructions
+[2023.03.26-10.06.45:756][624]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.06.45:756][624]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.06.45:756][624]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.06.45:756][624]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.06.50:943][966]LogMaterialEditor: Applying material Material__4
+[2023.03.26-10.06.51:381][966]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.03.26-10.06.51:571][966]LogShaderCompilers: Display: ================================================
+[2023.03.26-10.06.51:571][966]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.26-10.06.51:571][966]LogShaderCompilers: Display: Total job queries 33853, among them cache hits 31674 (93.56%)
+[2023.03.26-10.06.51:571][966]LogShaderCompilers: Display: Tracking 2022 distinct input hashes that result in 674 distinct outputs (33.33%)
+[2023.03.26-10.06.51:571][966]LogShaderCompilers: Display: RAM used: 5.72 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.35%
+[2023.03.26-10.06.51:571][966]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.26-10.06.51:571][966]LogShaderCompilers: Display: Shaders Compiled: 1381
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Jobs assigned 1383, completed 1381 (99.86%)
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Average time worker was idle: 84.36 s
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Time job spent in pending queue: average 0.56 s, longest 8.66 s
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Job execution time: average 1.94 s, max 10.52 s
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Job life time (pending + execution): average 2.50 s, max 11.43
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 242.94 s
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Jobs were issued in 1074 batches (only local compilation was used), average 1.29 jobs/batch
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Average processing rate: 5.68 jobs/sec
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Total thread time: 955.81 s
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Total thread preprocess time: 65.64 s
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Percentage time preprocessing: 6.87%
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Effective parallelization: 3.93 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   49 times, average 2.13 sec, max 5.90 sec, min 0.39 sec)
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   51 times, average 0.97 sec, max 1.26 sec, min 0.59 sec)
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   51 times, average 0.97 sec, max 1.32 sec, min 0.69 sec)
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   51 times, average 0.97 sec, max 1.23 sec, min 0.67 sec)
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    2 times, average 0.96 sec, max 1.30 sec, min 0.62 sec)
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.58% of total time (compiled  191 times, average 0.68 sec, max 1.07 sec, min 0.40 sec)
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.65% of total time (compiled  185 times, average 0.60 sec, max 2.17 sec, min 0.41 sec)
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display:                                             FDebugViewModePS - 10.94% of total time (compiled   49 times, average 2.13 sec, max 5.90 sec, min 0.39 sec)
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.43% of total time (compiled  165 times, average 0.49 sec, max 0.81 sec, min 0.35 sec)
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.29% of total time (compiled  165 times, average 0.31 sec, max 0.61 sec, min 0.20 sec)
+[2023.03.26-10.06.51:572][966]LogShaderCompilers: Display: ================================================
+[2023.03.26-10.06.52:081][966]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.03.26-10.08.04:785][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.03.26-10.08.04:787][463]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Menu/LandscapeEV' took 0.009
+[2023.03.26-10.08.04:788][463]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/modelos/lentes/glasses_02] ([1] browsable assets)...
+[2023.03.26-10.08.04:844][463]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/modelos/lentes/glasses_02.glasses_02]
+[2023.03.26-10.08.04:844][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/modelos/lentes/glasses_02]
+[2023.03.26-10.08.04:854][463]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/modelos/lentes/glasses_02_Auto6
+[2023.03.26-10.08.04:854][463]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/glasses_02_Auto64CD9F1834A40F368BDAB76AF26FD463F.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/Autosaves/Game/modelos/lentes/glasses_02_Auto6.uasset'
+[2023.03.26-10.08.04:855][463]LogFileHelpers: Auto-saving content packages took 0.068
+[2023.03.26-10.08.28:761][526]LogSlate: Window 'Mensaje' being destroyed
+[2023.03.26-10.08.28:767][526]Message dialog closed, result: Yes, title: Mensaje, text: ¿Quiere aplicar los cambios a este material?
+/Game/modelos/lentes/Material__3.Material__3
+(¡No se perderán todos lo cambios!)
+[2023.03.26-10.08.32:144][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.03.26-10.08.32:341][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.03.26-10.08.35:310][526]LogSlate: Window 'Mensaje' being destroyed
+[2023.03.26-10.08.35:315][526]Message dialog closed, result: Yes, title: Mensaje, text: ¿Quiere aplicar los cambios a este material?
+/Game/modelos/lentes/Material__6.Material__6
+(¡No se perderán todos lo cambios!)
+[2023.03.26-10.08.35:746][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.03.26-10.08.37:045][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.03.26-10.08.38:620][526]LogSlate: Window 'Mensaje' being destroyed
+[2023.03.26-10.08.38:626][526]Message dialog closed, result: Yes, title: Mensaje, text: ¿Quiere aplicar los cambios a este material?
+/Game/modelos/lentes/Material__7.Material__7
+(¡No se perderán todos lo cambios!)
+[2023.03.26-10.08.39:052][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.03.26-10.08.39:760][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.03.26-10.08.40:374][526]LogSlate: Window 'Mensaje' being destroyed
+[2023.03.26-10.08.40:380][526]Message dialog closed, result: Yes, title: Mensaje, text: ¿Quiere aplicar los cambios a este material?
+/Game/modelos/lentes/Material__8.Material__8
+(¡No se perderán todos lo cambios!)
+[2023.03.26-10.08.40:806][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.03.26-10.08.41:007][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.03.26-10.08.41:671][526]LogSlate: Window 'Mensaje' being destroyed
+[2023.03.26-10.08.41:680][526]Message dialog closed, result: Yes, title: Mensaje, text: ¿Quiere aplicar los cambios a este material?
+/Game/modelos/lentes/Material__9.Material__9
+(¡No se perderán todos lo cambios!)
+[2023.03.26-10.08.42:106][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.03.26-10.08.42:810][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.03.26-10.08.43:386][526]LogSlate: Window 'Mensaje' being destroyed
+[2023.03.26-10.08.43:392][526]Message dialog closed, result: Yes, title: Mensaje, text: ¿Quiere aplicar los cambios a este material?
+/Game/modelos/lentes/Material__10.Material__10
+(¡No se perderán todos lo cambios!)
+[2023.03.26-10.08.43:818][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.03.26-10.08.44:526][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.03.26-10.08.44:615][526]LogSlate: Window 'glasses_02' being destroyed
+[2023.03.26-10.08.44:617][526]LogSlate: Window 'glasses_02' being destroyed
+[2023.03.26-10.08.44:625][526]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.03.26-10.08.44:625][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.26-10.08.44:643][526]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2023.03.26-10.08.44:643][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.26-10.08.44:661][526]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.03.26-10.08.44:661][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.26-10.08.44:677][526]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.03.26-10.08.44:677][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.26-10.08.44:694][526]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.03.26-10.08.44:694][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.26-10.08.44:708][526]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.03.26-10.08.44:708][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.26-10.08.44:721][526]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.03.26-10.08.44:721][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.26-10.08.44:764][526]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2023.03.26-10.08.44:764][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.26-10.08.47:586][751]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/modelos/lentes/glasses_02.glasses_02
+[2023.03.26-10.08.47:586][751]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/modelos/lentes/glasses_02.glasses_02
+[2023.03.26-10.08.47:586][751]LogActorFactory: Actor Factory spawned StaticMesh /Game/modelos/lentes/glasses_02.glasses_02 as actor: StaticMeshActor /Game/Menu/LandscapeEV.LandscapeEV:PersistentLevel.StaticMeshActor_22
+[2023.03.26-10.08.49:331][905]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/modelos/lentes/glasses_02.glasses_02
+[2023.03.26-10.08.49:331][905]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/modelos/lentes/glasses_02.glasses_02
+[2023.03.26-10.08.49:332][905]LogActorFactory: Actor Factory spawned StaticMesh /Game/modelos/lentes/glasses_02.glasses_02 as actor: StaticMeshActor /Game/Menu/LandscapeEV.LandscapeEV:PersistentLevel.StaticMeshActor_23
+[2023.03.26-10.09.01:053][931]LogSlate: Window 'Buscador de contenido' being destroyed
+[2023.03.26-10.09.01:071][931]LogSlate: Window 'Buscador de contenido' being destroyed
+[2023.03.26-10.09.17:789][796]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/modelos/lentes/glasses_02.glasses_02
+[2023.03.26-10.09.17:873][796]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.26-10.09.18:141][796]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.03.26-10.09.50:377][992]LogSlate: Window 'glasses_02' being destroyed
+[2023.03.26-10.09.50:423][992]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.03.26-10.09.50:423][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.26-10.10.36:367][853]LogEditorViewport: Clicking Background
+[2023.03.26-10.10.39:378][180]LogEditorViewport: Clicking Background
+[2023.03.26-10.10.41:245][373]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.26-10.10.41:298][373]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.03.26-10.10.41:412][373]LogSavePackage: Moving output files for package: /Game/Menu/LandscapeEV
+[2023.03.26-10.10.41:413][373]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/LandscapeEVB7085DD44752E8474EB977BA5A624EF4.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/Menu/LandscapeEV.umap'
+[2023.03.26-10.10.41:426][373]LogFileHelpers: Saving map 'LandscapeEV' took 0.138
+[2023.03.26-10.10.41:433][373]LogFileHelpers: InternalPromptForCheckoutAndSave took 187 ms (total: 50.2 sec)
+[2023.03.26-10.10.41:437][373]AssetCheck: New page: Asset Save: LandscapeEV
+[2023.03.26-10.10.41:437][373]LogContentValidation: Display: Validating /Script/Engine.World /Game/Menu/LandscapeEV.LandscapeEV
+[2023.03.26-10.10.44:251][653]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.03.26-10.10.44:364][653]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.26-10.10.44:431][653]LogSavePackage: Moving output files for package: /Game/modelos/lentes/glasses_02
+[2023.03.26-10.10.44:431][653]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/glasses_025497D0D843AFD968A782789F5BB648B2.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/lentes/glasses_02.uasset'
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: ================================================
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Total job queries 33923, among them cache hits 31726 (93.52%)
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Tracking 2042 distinct input hashes that result in 681 distinct outputs (33.35%)
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: RAM used: 5.77 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.35%
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Shaders Compiled: 1401
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Jobs assigned 1401, completed 1401 (100.00%)
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Average time worker was idle: 85.36 s
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Time job spent in pending queue: average 0.55 s, longest 8.66 s
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Job execution time: average 1.92 s, max 10.52 s
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Job life time (pending + execution): average 2.47 s, max 11.43
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 247.87 s
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Jobs were issued in 1092 batches (only local compilation was used), average 1.28 jobs/batch
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Average processing rate: 5.65 jobs/sec
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Total thread time: 966.21 s
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Total thread preprocess time: 66.43 s
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Percentage time preprocessing: 6.88%
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Effective parallelization: 3.90 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   54 times, average 1.97 sec, max 5.90 sec, min 0.38 sec)
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   52 times, average 0.97 sec, max 1.26 sec, min 0.59 sec)
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   52 times, average 0.97 sec, max 1.32 sec, min 0.69 sec)
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   52 times, average 0.96 sec, max 1.23 sec, min 0.67 sec)
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    2 times, average 0.96 sec, max 1.30 sec, min 0.62 sec)
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.44% of total time (compiled  191 times, average 0.68 sec, max 1.07 sec, min 0.40 sec)
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.52% of total time (compiled  185 times, average 0.60 sec, max 2.17 sec, min 0.41 sec)
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display:                                             FDebugViewModePS - 11.03% of total time (compiled   54 times, average 1.97 sec, max 5.90 sec, min 0.38 sec)
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.34% of total time (compiled  165 times, average 0.49 sec, max 0.81 sec, min 0.35 sec)
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.23% of total time (compiled  165 times, average 0.31 sec, max 0.61 sec, min 0.20 sec)
+[2023.03.26-10.10.46:036][653]LogShaderCompilers: Display: ================================================
+[2023.03.26-10.10.46:046][653]LogSavePackage: Moving output files for package: /Game/modelos/lentes/Material__4
+[2023.03.26-10.10.46:046][653]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/Material__42C3BE8B04093A20AF81D1BA35E389DCA.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/lentes/Material__4.uasset'
+[2023.03.26-10.10.47:494][653]LogSavePackage: Moving output files for package: /Game/modelos/lentes/Material__3
+[2023.03.26-10.10.47:494][653]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/Material__324A6CAF0405B9A419C2F2CA1868AF2F6.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/lentes/Material__3.uasset'
+[2023.03.26-10.10.48:856][653]LogSavePackage: Moving output files for package: /Game/modelos/lentes/Material__6
+[2023.03.26-10.10.48:856][653]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/Material__686A397E34A856E2299F8C6B567878178.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/lentes/Material__6.uasset'
+[2023.03.26-10.10.50:306][653]LogSavePackage: Moving output files for package: /Game/modelos/lentes/Material__8
+[2023.03.26-10.10.50:306][653]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/Material__8FFC776184C8B721CC4973FA0F5CA7A44.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/lentes/Material__8.uasset'
+[2023.03.26-10.10.51:666][653]LogSavePackage: Moving output files for package: /Game/modelos/lentes/Material__10
+[2023.03.26-10.10.51:666][653]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/Material__10A28151614CF6ACE0E5DE03ACF5FBD389.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/lentes/Material__10.uasset'
+[2023.03.26-10.10.53:114][653]LogSavePackage: Moving output files for package: /Game/modelos/lentes/Material__9
+[2023.03.26-10.10.53:114][653]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/Material__9A18C6D4A4C249EC9F68760B239FE06FD.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/lentes/Material__9.uasset'
+[2023.03.26-10.10.54:557][653]LogSavePackage: Moving output files for package: /Game/modelos/lentes/Material__7
+[2023.03.26-10.10.54:557][653]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/Material__72B40C1964F8F77C4C63C27963041B99B.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/lentes/Material__7.uasset'
+[2023.03.26-10.10.55:071][653]LogFileHelpers: InternalPromptForCheckoutAndSave took 10.7 sec (total: 1:00 min)
+[2023.03.26-10.10.55:075][653]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.26-10.10.55:075][653]LogContentValidation: Display: Validating /Script/Engine.Material /Game/modelos/lentes/Material__7.Material__7
+[2023.03.26-10.10.55:075][653]LogContentValidation: Display: Validating /Script/Engine.Material /Game/modelos/lentes/Material__9.Material__9
+[2023.03.26-10.10.55:075][653]LogContentValidation: Display: Validating /Script/Engine.Material /Game/modelos/lentes/Material__10.Material__10
+[2023.03.26-10.10.55:075][653]LogContentValidation: Display: Validating /Script/Engine.Material /Game/modelos/lentes/Material__8.Material__8
+[2023.03.26-10.10.55:075][653]LogContentValidation: Display: Validating /Script/Engine.Material /Game/modelos/lentes/Material__6.Material__6
+[2023.03.26-10.10.55:075][653]LogContentValidation: Display: Validating /Script/Engine.Material /Game/modelos/lentes/Material__3.Material__3
+[2023.03.26-10.10.55:075][653]LogContentValidation: Display: Validating /Script/Engine.Material /Game/modelos/lentes/Material__4.Material__4
+[2023.03.26-10.10.55:075][653]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/modelos/lentes/glasses_02.glasses_02
+[2023.03.26-10.13.21:048][409]LogContentBrowser: Deferred new asset folder creation: Carpeta nueva
+[2023.03.26-10.13.21:060][409]LogContentBrowser: Creating deferred item: Carpeta nueva
+[2023.03.26-10.13.21:066][410]LogContentBrowser: Renaming the item being created (Deferred Item: Carpeta nueva).
+[2023.03.26-10.13.25:776][969]LogContentBrowser: Attempting asset rename: Carpeta nueva -> rompible
+[2023.03.26-10.13.25:776][969]LogContentBrowser: End creating deferred item Carpeta nueva
+[2023.03.26-10.13.28:131][209]LogContentBrowser: Deferred new asset folder creation: Carpeta nueva
+[2023.03.26-10.13.28:143][209]LogContentBrowser: Creating deferred item: Carpeta nueva
+[2023.03.26-10.13.28:158][211]LogContentBrowser: Renaming the item being created (Deferred Item: Carpeta nueva).
+[2023.03.26-10.13.29:006][309]LogContentBrowser: Attempting asset rename: Carpeta nueva -> caja
+[2023.03.26-10.13.29:006][309]LogContentBrowser: End creating deferred item Carpeta nueva
+[2023.03.26-10.13.32:128][507]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\caja\Crate1.FBX)
+[2023.03.26-10.13.32:134][507]LogFbx: Loading FBX Scene from D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\caja\Crate1.FBX
+[2023.03.26-10.13.32:148][507]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.26-10.13.33:406][507]LogSlate: Window 'Opciones de importación de FBX' being destroyed
+[2023.03.26-10.13.33:499][507]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2023.03.26-10.13.33:499][507]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.03.26-10.13.33:522][507]LogStaticMesh: Display: Generando la malla estática Crate1...
+[2023.03.26-10.13.33:536][507]LogTexture: Display: Building textures: /Game/modelos/rompible/caja/WdCrt_c.WdCrt_c (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.03.26-10.13.33:555][507]LogStaticMesh: Built static mesh [0.03s] /Game/modelos/rompible/caja/Crate1.Crate1
+[2023.03.26-10.13.33:576][507]LogInterchangeEngine: [Pending] Importing
+[2023.03.26-10.13.33:576][507]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.03.26-10.13.33:577][507]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.03.26-10.13.33:577][507]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.03.26-10.13.33:598][508]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.03.26-10.13.33:628][509]LogInterchangeImport: JPEG file [D:/Data/Escritorio/Facultad/Escenarios De videojuegos/modelos/rompible/caja/WdCrt_c.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2023.03.26-10.13.33:628][509]LogInterchangeImport: JPEG file [D:/Data/Escritorio/Facultad/Escenarios De videojuegos/modelos/rompible/caja/WdCrt_df.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2023.03.26-10.13.33:629][509]LogInterchangeImport: JPEG file [D:/Data/Escritorio/Facultad/Escenarios De videojuegos/modelos/rompible/caja/WdCrt_b.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2023.03.26-10.13.33:632][509]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.03.26-10.13.33:636][509]LogInterchangeImport: JPEG file [D:/Data/Escritorio/Facultad/Escenarios De videojuegos/modelos/rompible/caja/WdCrt_sp.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2023.03.26-10.13.33:638][509]LogTexture: Display: Building textures: /Game/modelos/rompible/caja/WdCrt_df.WdCrt_df (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.03.26-10.13.33:659][509]LogTexture: Display: Building textures: /Game/modelos/rompible/caja/WdCrt_b.WdCrt_b (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.03.26-10.13.33:700][509]LogTexture: Display: Waiting for textures to be ready 0/1 (/Game/modelos/rompible/caja/WdCrt_c) ...
+[2023.03.26-10.13.33:716][509]LogTexture: Display: Building textures: /Game/modelos/rompible/caja/WdCrt_c.WdCrt_c (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.03.26-10.13.33:844][510]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.03.26-10.13.33:846][510]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.03.26-10.13.33:846][510]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.13.33:856][510]LogTexture: Display: Building textures: /Game/modelos/rompible/caja/WdCrt_sp.WdCrt_sp (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.03.26-10.13.33:948][511]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.13.52:985][805]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/modelos/rompible/caja/Crate1.Crate1
+[2023.03.26-10.13.52:985][805]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/modelos/rompible/caja/Crate1.Crate1
+[2023.03.26-10.13.52:985][805]LogActorFactory: Actor Factory spawned StaticMesh /Game/modelos/rompible/caja/Crate1.Crate1 as actor: StaticMeshActor /Game/Menu/LandscapeEV.LandscapeEV:PersistentLevel.StaticMeshActor_24
+[2023.03.26-10.13.54:109][913]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/modelos/rompible/caja/Crate1.Crate1
+[2023.03.26-10.13.54:109][913]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/modelos/rompible/caja/Crate1.Crate1
+[2023.03.26-10.13.54:110][913]LogActorFactory: Actor Factory spawned StaticMesh /Game/modelos/rompible/caja/Crate1.Crate1 as actor: StaticMeshActor /Game/Menu/LandscapeEV.LandscapeEV:PersistentLevel.StaticMeshActor_25
+[2023.03.26-10.14.03:088][946]LogEditorViewport: Clicking Background
+[2023.03.26-10.14.18:486][679]LogEditorViewport: Clicking Background
+[2023.03.26-10.14.28:523][767]LogEditorViewport: Clicking Background
+[2023.03.26-10.14.33:786][330]LogEditorViewport: Clicking Background
+[2023.03.26-10.14.41:282][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.03.26-10.14.41:455][773]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.26-10.14.41:521][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.03.26-10.14.41:632][773]LogSavePackage: Moving output files for package: /Game/Menu/LandscapeEV
+[2023.03.26-10.14.41:632][773]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/LandscapeEV1BFC58734037024A8A5FB1B1900D358B.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/Menu/LandscapeEV.umap'
+[2023.03.26-10.14.41:646][773]LogFileHelpers: Saving map 'LandscapeEV' took 0.132
+[2023.03.26-10.14.41:659][773]LogSavePackage: Moving output files for package: /Game/modelos/rompible/caja/Crate1
+[2023.03.26-10.14.41:659][773]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/Crate186CAEFD845795F89819313A320D691E5.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/rompible/caja/Crate1.uasset'
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: ================================================
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Total job queries 33999, among them cache hits 31726 (93.31%)
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Tracking 2118 distinct input hashes that result in 688 distinct outputs (32.48%)
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: RAM used: 6.00 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.37%
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Shaders Compiled: 1477
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Jobs assigned 1477, completed 1477 (100.00%)
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Average time worker was idle: 81.36 s
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Time job spent in pending queue: average 0.53 s, longest 8.66 s
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Job execution time: average 1.86 s, max 10.52 s
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Job life time (pending + execution): average 2.40 s, max 11.43
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 258.56 s
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Jobs were issued in 1168 batches (only local compilation was used), average 1.26 jobs/batch
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Average processing rate: 5.71 jobs/sec
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Total thread time: 1015.91 s
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Total thread preprocess time: 69.87 s
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Percentage time preprocessing: 6.88%
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Effective parallelization: 3.93 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   55 times, average 1.95 sec, max 5.90 sec, min 0.38 sec)
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    2 times, average 0.96 sec, max 1.30 sec, min 0.62 sec)
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   59 times, average 0.95 sec, max 1.32 sec, min 0.69 sec)
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   59 times, average 0.94 sec, max 1.26 sec, min 0.59 sec)
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   59 times, average 0.94 sec, max 1.23 sec, min 0.67 sec)
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.83% of total time (compiled  192 times, average 0.68 sec, max 1.07 sec, min 0.40 sec)
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.00% of total time (compiled  186 times, average 0.60 sec, max 2.17 sec, min 0.41 sec)
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display:                                             FDebugViewModePS - 10.54% of total time (compiled   55 times, average 1.95 sec, max 5.90 sec, min 0.38 sec)
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.97% of total time (compiled  166 times, average 0.49 sec, max 0.81 sec, min 0.35 sec)
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.50% of total time (compiled   59 times, average 0.95 sec, max 1.32 sec, min 0.69 sec)
+[2023.03.26-10.14.43:342][773]LogShaderCompilers: Display: ================================================
+[2023.03.26-10.14.43:352][773]LogSavePackage: Moving output files for package: /Game/modelos/rompible/caja/Object_000
+[2023.03.26-10.14.43:352][773]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/Object_0006156E6C545CE04E3F067B78FB3ACACA9.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/rompible/caja/Object_000.uasset'
+[2023.03.26-10.14.43:357][773]LogSavePackage: Moving output files for package: /Game/modelos/rompible/caja/WdCrt_c
+[2023.03.26-10.14.43:357][773]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/WdCrt_cBB2F85AD42452CDBFFC319BEEA989E68.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/rompible/caja/WdCrt_c.uasset'
+[2023.03.26-10.14.43:362][773]LogSavePackage: Moving output files for package: /Game/modelos/rompible/caja/WdCrt_b
+[2023.03.26-10.14.43:362][773]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/WdCrt_b2A7BD2384D20785AC9AE17ACD7967414.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/rompible/caja/WdCrt_b.uasset'
+[2023.03.26-10.14.43:366][773]LogSavePackage: Moving output files for package: /Game/modelos/rompible/caja/WdCrt_df
+[2023.03.26-10.14.43:366][773]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/WdCrt_df7DA4069E4407B6AD3713669B93AC742B.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/rompible/caja/WdCrt_df.uasset'
+[2023.03.26-10.14.43:370][773]LogSavePackage: Moving output files for package: /Game/modelos/rompible/caja/WdCrt_sp
+[2023.03.26-10.14.43:370][773]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/WdCrt_spE7F12B3F465804ACC6E672B836CB21BA.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/rompible/caja/WdCrt_sp.uasset'
+[2023.03.26-10.14.43:942][773]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.48 sec (total: 1:03 min)
+[2023.03.26-10.14.43:949][773]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.26-10.14.43:949][773]LogContentValidation: Display: Validating /Script/Engine.World /Game/Menu/LandscapeEV.LandscapeEV
+[2023.03.26-10.14.43:949][773]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/modelos/rompible/caja/WdCrt_sp.WdCrt_sp
+[2023.03.26-10.14.43:949][773]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/modelos/rompible/caja/WdCrt_df.WdCrt_df
+[2023.03.26-10.14.43:949][773]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/modelos/rompible/caja/WdCrt_b.WdCrt_b
+[2023.03.26-10.14.43:949][773]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/modelos/rompible/caja/WdCrt_c.WdCrt_c
+[2023.03.26-10.14.43:949][773]LogContentValidation: Display: Validating /Script/Engine.Material /Game/modelos/rompible/caja/Object_000.Object_000
+[2023.03.26-10.14.43:949][773]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/modelos/rompible/caja/Crate1.Crate1
+[2023.03.26-10.16.11:611][742]LogContentBrowser: Deferred new asset folder creation: Carpeta nueva
+[2023.03.26-10.16.11:622][742]LogContentBrowser: Creating deferred item: Carpeta nueva
+[2023.03.26-10.16.11:631][743]LogContentBrowser: Renaming the item being created (Deferred Item: Carpeta nueva).
+[2023.03.26-10.16.14:548][ 85]LogContentBrowser: Attempting asset rename: Carpeta nueva -> Carpeta nueva
+[2023.03.26-10.16.14:548][ 85]LogContentBrowser: End creating deferred item Carpeta nueva
+[2023.03.26-10.16.19:533][553]LogContentBrowser: Deferred new asset folder creation: Carpeta nueva
+[2023.03.26-10.16.19:554][553]LogContentBrowser: Creating deferred item: Carpeta nueva
+[2023.03.26-10.16.19:560][554]LogContentBrowser: Renaming the item being created (Deferred Item: Carpeta nueva).
+[2023.03.26-10.16.21:081][732]LogContentBrowser: Attempting asset rename: Carpeta nueva -> palote
+[2023.03.26-10.16.21:081][732]LogContentBrowser: End creating deferred item Carpeta nueva
+[2023.03.26-10.16.24:427][968]LogInterchangeEngine: [Pending] Importing
+[2023.03.26-10.16.24:493][968]LogTexture: Display: Building textures: /Game/modelos/rompible/palote/table_wood_01_N.table_wood_01_N (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.16.24:496][968]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.16.24:566][968]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\palote\table_wood_01.fbx)
+[2023.03.26-10.16.24:572][968]LogFbx: Loading FBX Scene from D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\palote\table_wood_01.fbx
+[2023.03.26-10.16.24:576][968]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.26-10.16.25:702][968]LogSlate: Window 'Opciones de importación de FBX' being destroyed
+[2023.03.26-10.16.25:763][968]LogStaticMesh: Display: Generando la malla estática table_wood_01...
+[2023.03.26-10.16.25:765][968]LogStaticMesh: Built static mesh [0.00s] /Game/modelos/rompible/palote/table_wood_01.table_wood_01
+[2023.03.26-10.16.25:776][968]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.03.26-10.16.25:776][968]FBXImport: Warning: Inconsistencia del índice de material de la cara - forzando a 0 
+[2023.03.26-10.16.25:829][968]LogInterchangeEngine: [Pending] Importing
+[2023.03.26-10.16.25:873][968]LogInterchangeImport: Warning: Could not create texture asset table_wood_01
+[2023.03.26-10.16.25:890][968]LogInterchangeImport: Error: UInterchangeTextureFactory: Could not create texture asset table_wood_01
+[2023.03.26-10.16.25:894][968]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.03.26-10.16.25:908][968]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.03.26-10.16.25:910][968]LogTexture: Display: Building textures: /Game/modelos/rompible/palote/table_wood_01_N.table_wood_01_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2023.03.26-10.16.25:974][969]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.16.25:991][969]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.03.26-10.16.34:803][717]LogSlate: Window 'Buscador de contenido' being destroyed
+[2023.03.26-10.16.34:821][717]LogSlate: Window 'Buscador de contenido' being destroyed
+[2023.03.26-10.16.35:725][803]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.03.26-10.16.35:741][803]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.03.26-10.16.59:847][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.03.26-10.17.01:057][283]LogSlate: Window 'Delete Assets' being destroyed
+[2023.03.26-10.17.01:069][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.03.26-10.17.01:076][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.03.26-10.17.01:082][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.03.26-10.17.02:207][314]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Manny_Simple) ...
+[2023.03.26-10.20.49:390][478]LogContentBrowser: Deferred new asset folder creation: Carpeta nueva
+[2023.03.26-10.20.49:429][478]LogContentBrowser: Creating deferred item: Carpeta nueva
+[2023.03.26-10.20.49:435][479]LogContentBrowser: Renaming the item being created (Deferred Item: Carpeta nueva).
+[2023.03.26-10.20.51:754][707]LogContentBrowser: Attempting asset rename: Carpeta nueva -> cubeta
+[2023.03.26-10.20.51:754][707]LogContentBrowser: End creating deferred item Carpeta nueva
+[2023.03.26-10.20.55:448][934]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\Bucket.fbx)
+[2023.03.26-10.20.55:455][934]LogFbx: Loading FBX Scene from D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\Bucket.fbx
+[2023.03.26-10.20.55:461][934]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.26-10.20.56:574][934]LogSlate: Window 'Opciones de importación de FBX' being destroyed
+[2023.03.26-10.20.56:656][934]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\usre\Desktop\Bucket\Textures\Bucket_Albedo.dds
+[2023.03.26-10.20.56:656][934]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\usre\Desktop\Bucket\Textures\Bucket_Metalness.png
+[2023.03.26-10.20.56:656][934]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\usre\Desktop\Bucket\Textures\Bucket_Roughness.png
+[2023.03.26-10.20.56:657][934]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\usre\Desktop\Bucket\Textures\Bucket_Normal.png
+[2023.03.26-10.20.56:672][934]LogStaticMesh: Display: Generando la malla estática Bucket...
+[2023.03.26-10.20.56:686][934]LogStaticMesh: Built static mesh [0.01s] /Game/modelos/rompible/cubeta/Bucket.Bucket
+[2023.03.26-10.20.56:720][934]LogInterchangeEngine: [Pending] Importing
+[2023.03.26-10.20.56:720][934]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.03.26-10.20.56:720][934]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.03.26-10.20.56:720][934]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.03.26-10.20.56:720][934]LogInterchangeEngine: [Pending] Importing -  (5)
+[2023.03.26-10.20.56:750][935]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Bucket_AO.Bucket_AO (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.20.56:752][935]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Bucket_Metalness.Bucket_Metalness (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.20.56:755][935]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Bucket_Roughness.Bucket_Roughness (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.20.56:766][935]LogTexture: Error: Texture2D /Game/modelos/rompible/cubeta/Bucket_Albedo.Bucket_Albedo contains no miplevels! Please delete. (Format: 0)
+[2023.03.26-10.20.56:770][935]LogInterchangeEngine: [Pending] Importing -  (5)
+[2023.03.26-10.20.56:771][935]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.03.26-10.20.56:771][935]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.03.26-10.20.56:771][935]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.03.26-10.20.56:794][935]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Bucket_Normal.Bucket_Normal (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.20.56:811][935]LogInterchangeEngine: Error: {
+	"Type": "/Script/InterchangeCore.InterchangeResultError_Generic",
+	"Properties": [
+		{
+			"Name": "Text",
+			"Value": "LOCGEN_FORMAT_ORDERED(NSLOCTEXT(\"InterchangeDDSTranslator\", \"InvalidDXGIFormat\", \"DDS DXGIFormat not supported : {0} : {1}\"), 71, \"BC1_UNORM\")"
+		},
+		{
+			"Name": "SourceAssetName",
+			"Value": "D:/Data/Escritorio/Facultad/Escenarios De videojuegos/modelos/rompible/cubeta/Bucket_Albedo.dds"
+		},
+		{
+			"Name": "DestinationAssetName",
+			"Value": ""
+		},
+		{
+			"Name": "AssetType",
+			"Value": "/Script/CoreUObject.Class'/Script/Engine.Texture2D'"
+		},
+		{
+			"Name": "InterchangeKey",
+			"Value": ""
+		}
+	]
+}
+[2023.03.26-10.20.56:811][935]LogInterchangeEngine: Error: {
+	"Type": "/Script/InterchangeCore.InterchangeResultError_Generic",
+	"Properties": [
+		{
+			"Name": "Text",
+			"Value": "NSLOCTEXT(\"InterchangeTextureFactory\", \"InvalidPayload\", \"Unable to retrieve the payload from the source file.\")"
+		},
+		{
+			"Name": "SourceAssetName",
+			"Value": "D:/Data/Escritorio/Facultad/Escenarios De videojuegos/modelos/rompible/cubeta/Bucket_Albedo.dds"
+		},
+		{
+			"Name": "DestinationAssetName",
+			"Value": "Bucket_Albedo"
+		},
+		{
+			"Name": "AssetType",
+			"Value": "/Script/CoreUObject.Class'/Script/Engine.Texture2D'"
+		},
+		{
+			"Name": "InterchangeKey",
+			"Value": ""
+		}
+	]
+}
+[2023.03.26-10.20.56:811][935]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.03.26-10.20.56:866][936]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.20.56:883][936]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.20.56:913][936]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.03.26-10.20.56:915][936]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Bucket_Normal.Bucket_Normal (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: ================================================
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Total job queries 34006, among them cache hits 31729 (93.30%)
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Tracking 2119 distinct input hashes that result in 688 distinct outputs (32.47%)
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: RAM used: 6.00 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.37%
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Shaders Compiled: 1478
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Jobs assigned 1481, completed 1478 (99.80%)
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Average time worker was idle: 82.36 s
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Time job spent in pending queue: average 0.53 s, longest 8.66 s
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Job execution time: average 1.86 s, max 10.52 s
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Job life time (pending + execution): average 2.40 s, max 11.43
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 259.03 s
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Jobs were issued in 1172 batches (only local compilation was used), average 1.26 jobs/batch
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Average processing rate: 5.71 jobs/sec
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Total thread time: 1016.12 s
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Total thread preprocess time: 69.91 s
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Percentage time preprocessing: 6.88%
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Effective parallelization: 3.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   55 times, average 1.95 sec, max 5.90 sec, min 0.38 sec)
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    2 times, average 0.96 sec, max 1.30 sec, min 0.62 sec)
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   59 times, average 0.95 sec, max 1.32 sec, min 0.69 sec)
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   59 times, average 0.94 sec, max 1.26 sec, min 0.59 sec)
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   59 times, average 0.94 sec, max 1.23 sec, min 0.67 sec)
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.82% of total time (compiled  192 times, average 0.68 sec, max 1.07 sec, min 0.40 sec)
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.00% of total time (compiled  186 times, average 0.60 sec, max 2.17 sec, min 0.41 sec)
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display:                                             FDebugViewModePS - 10.54% of total time (compiled   55 times, average 1.95 sec, max 5.90 sec, min 0.38 sec)
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.96% of total time (compiled  166 times, average 0.49 sec, max 0.81 sec, min 0.35 sec)
+[2023.03.26-10.20.57:380][939]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.49% of total time (compiled   59 times, average 0.95 sec, max 1.32 sec, min 0.69 sec)
+[2023.03.26-10.20.57:381][939]LogShaderCompilers: Display: ================================================
+[2023.03.26-10.21.03:378][424]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/modelos/rompible/cubeta/Bucket1.Bucket1
+[2023.03.26-10.21.03:381][424]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.26-10.21.03:555][424]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.21.03:555][424]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.21.03:555][424]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.21.03:561][424]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.03.26-10.21.03:635][426]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.03.26-10.21.03:635][426]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.21.03:635][426]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.21.03:635][426]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.21.03:635][426]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.21.12:867][ 86]LogEditorFactories: Performing atomic reimport of [D:/Data/Escritorio/Facultad/Escenarios De videojuegos/modelos/rompible/cubeta/Bucket_Albedo.dds]
+[2023.03.26-10.21.12:868][ 86]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Data/Escritorio/Facultad/Escenarios De videojuegos/modelos/rompible/cubeta/Bucket_Albedo.dds)
+[2023.03.26-10.21.12:868][ 86]LogTexture: Error: Texture2D /Game/modelos/rompible/cubeta/Bucket_Albedo.Bucket_Albedo contains no miplevels! Please delete. (Format: 0)
+[2023.03.26-10.21.12:868][ 86]Error: DDS DXGIFormat not supported : 71 : BC1_UNORM
+[2023.03.26-10.21.12:869][ 86]Error: Image Import failed.
+[2023.03.26-10.21.12:869][ 86]LogTexture: Error: Texture2D /Game/modelos/rompible/cubeta/Bucket_Albedo.Bucket_Albedo contains no miplevels! Please delete. (Format: 0)
+[2023.03.26-10.21.12:869][ 86]Error: Texture import failed
+[2023.03.26-10.21.12:869][ 86]LogEditorFactories: Warning: -- import failed
+[2023.03.26-10.21.12:886][ 86]LogInterchangeEngine: [Pending] Importing
+[2023.03.26-10.21.12:893][ 86]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.21.12:893][ 86]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Bucket_AO.Bucket_AO (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.21.12:893][ 86]LogInterchangeEngine: [Pending] Importing
+[2023.03.26-10.21.12:906][ 86]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.21.12:906][ 86]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Bucket_Metalness.Bucket_Metalness (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.21.12:906][ 86]LogInterchangeEngine: [Pending] Importing
+[2023.03.26-10.21.12:943][ 86]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.21.12:944][ 86]LogInterchangeEngine: [Pending] Importing
+[2023.03.26-10.21.12:944][ 86]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Bucket_Normal.Bucket_Normal (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2023.03.26-10.21.12:960][ 86]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.21.12:960][ 86]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Bucket_Roughness.Bucket_Roughness (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.21.12:960][ 86]LogEditorFactories: Performing atomic reimport of [D:/Data/Escritorio/Facultad/Escenarios De videojuegos/modelos/rompible/cubeta/Bucket.fbx]
+[2023.03.26-10.21.12:970][ 86]LogFbx: Loading FBX Scene from D:/Data/Escritorio/Facultad/Escenarios De videojuegos/modelos/rompible/cubeta/Bucket.fbx
+[2023.03.26-10.21.12:979][ 86]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.26-10.21.13:295][ 86]LogEditorFactories: -- imported successfully
+[2023.03.26-10.21.13:430][ 87]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.21.13:449][ 87]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.21.13:466][ 87]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.21.13:482][ 87]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.21.21:017][398]LogEditorFactories: Performing atomic reimport of [D:/Data/Escritorio/Facultad/Escenarios De videojuegos/modelos/rompible/cubeta/Bucket_Albedo.dds]
+[2023.03.26-10.21.21:018][398]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Data/Escritorio/Facultad/Escenarios De videojuegos/modelos/rompible/cubeta/Bucket_Albedo.dds)
+[2023.03.26-10.21.21:018][398]LogTexture: Error: Texture2D /Game/modelos/rompible/cubeta/Bucket_Albedo.Bucket_Albedo contains no miplevels! Please delete. (Format: 0)
+[2023.03.26-10.21.21:019][398]Error: DDS DXGIFormat not supported : 71 : BC1_UNORM
+[2023.03.26-10.21.21:019][398]Error: Image Import failed.
+[2023.03.26-10.21.21:019][398]LogTexture: Error: Texture2D /Game/modelos/rompible/cubeta/Bucket_Albedo.Bucket_Albedo contains no miplevels! Please delete. (Format: 0)
+[2023.03.26-10.21.21:019][398]Error: Texture import failed
+[2023.03.26-10.21.21:019][398]LogEditorFactories: Warning: -- import failed
+[2023.03.26-10.21.29:547][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.03.26-10.21.31:184][597]LogSlate: Window 'Delete Assets' being destroyed
+[2023.03.26-10.21.31:209][597]LogSlate: Window 'Bucket1' being destroyed
+[2023.03.26-10.21.31:222][597]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2023.03.26-10.21.31:222][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.26-10.21.31:224][597]LogUObjectGlobals: Force Deleting 6 Package(s):
+	Asset Name: /Game/modelos/rompible/cubeta/Bucket1.Bucket1
+	Asset Type: Material
+	Asset Name: /Game/modelos/rompible/cubeta/Bucket.Bucket
+	Asset Type: StaticMesh
+	Asset Name: /Game/modelos/rompible/cubeta/Bucket_AO.Bucket_AO
+	Asset Type: Texture2D
+	Asset Name: /Game/modelos/rompible/cubeta/Bucket_Metalness.Bucket_Metalness
+	Asset Type: Texture2D
+	Asset Name: /Game/modelos/rompible/cubeta/Bucket_Roughness.Bucket_Roughness
+	Asset Type: Texture2D
+	Asset Name: /Game/modelos/rompible/cubeta/Bucket_Normal.Bucket_Normal
+	Asset Type: Texture2D
+[2023.03.26-10.21.31:398][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.03.26-10.21.31:407][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.03.26-10.21.31:412][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.03.26-10.22.18:604][239]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\Bucket_low.FBX)
+[2023.03.26-10.22.18:610][239]LogFbx: Loading FBX Scene from D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\Bucket_low.FBX
+[2023.03.26-10.22.18:616][239]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.26-10.22.20:036][239]LogSlate: Window 'Opciones de importación de FBX' being destroyed
+[2023.03.26-10.22.20:114][239]LogStaticMesh: Display: Generando la malla estática Bucket_low_3_low...
+[2023.03.26-10.22.20:124][239]LogStaticMesh: Built static mesh [0.01s] /Game/modelos/rompible/cubeta/Bucket_low_3_low.Bucket_low_3_low
+[2023.03.26-10.22.20:132][239]LogFbx: Display: Triangulating static mesh 1_low
+[2023.03.26-10.22.20:148][239]LogStaticMesh: Display: Generando la malla estática Bucket_low_1_low...
+[2023.03.26-10.22.20:158][239]LogStaticMesh: Built static mesh [0.01s] /Game/modelos/rompible/cubeta/Bucket_low_1_low.Bucket_low_1_low
+[2023.03.26-10.22.20:166][239]LogStaticMesh: Display: Generando la malla estática Bucket_low_2_low...
+[2023.03.26-10.22.20:175][239]LogStaticMesh: Built static mesh [0.01s] /Game/modelos/rompible/cubeta/Bucket_low_2_low.Bucket_low_2_low
+[2023.03.26-10.22.20:187][239]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.03.26-10.22.49:210][777]LogSlate: Window 'Buscador de contenido' being destroyed
+[2023.03.26-10.22.49:312][777]LogSlate: Window 'Buscador de contenido' being destroyed
+[2023.03.26-10.22.50:132][844]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.03.26-10.22.50:147][844]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.03.26-10.22.56:108][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.03.26-10.22.56:934][352]LogSlate: Window 'Delete Assets' being destroyed
+[2023.03.26-10.22.56:948][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.03.26-10.22.56:954][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.03.26-10.22.56:960][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.03.26-10.24.04:380][741]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\bucket.fbx)
+[2023.03.26-10.24.04:386][741]LogFbx: Loading FBX Scene from D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\bucket.fbx
+[2023.03.26-10.24.04:389][741]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.26-10.24.04:389][741]FBXImport: Warning: Can't detect import type. No mesh is found or animation track. 
+[2023.03.26-10.24.13:065][741]LogSlate: Window 'Mensaje' being destroyed
+[2023.03.26-10.24.13:090][741]Message dialog closed, result: Ok, title: Mensaje, text: Failed to import 'D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\bucket.fbx'. Failed to create asset '/Game/modelos/rompible/cubeta/bucket'.
+Please see Output Log for details.
+[2023.03.26-10.24.13:096][741]LogAssetTools: Warning: Failed to import 'D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\bucket.fbx'. Failed to create asset '/Game/modelos/rompible/cubeta/bucket'.
+Please see Output Log for details.
+[2023.03.26-10.24.13:097][741]LogInterchangeEngine: [Pending] Importing
+[2023.03.26-10.24.13:097][741]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.03.26-10.24.13:097][741]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.03.26-10.24.13:097][741]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.03.26-10.24.13:097][741]LogInterchangeEngine: [Pending] Importing -  (5)
+[2023.03.26-10.24.13:097][741]LogInterchangeEngine: [Pending] Importing -  (6)
+[2023.03.26-10.24.13:129][742]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/DefaultMaterial_Metallic.DefaultMaterial_Metallic (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.24.13:132][742]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/DefaultMaterial_Mixed_AO.DefaultMaterial_Mixed_AO (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.24.13:135][742]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/DefaultMaterial_Roughness.DefaultMaterial_Roughness (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.24.13:143][742]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/DefaultMaterial_Height.DefaultMaterial_Height (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 122.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.24.13:148][742]LogInterchangeEngine: [Pending] Importing -  (6)
+[2023.03.26-10.24.13:159][742]LogInterchangeEngine: [Pending] Importing -  (5)
+[2023.03.26-10.24.13:159][742]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.03.26-10.24.13:159][742]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.03.26-10.24.13:179][742]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/DefaultMaterial_Base_color.DefaultMaterial_Base_color (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.24.13:208][743]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.03.26-10.24.13:209][743]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.03.26-10.24.13:213][743]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/DefaultMaterial_Normal.DefaultMaterial_Normal (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 128.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.24.13:213][743]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.24.13:405][744]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.24.13:445][744]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.03.26-10.24.13:447][744]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/DefaultMaterial_Normal.DefaultMaterial_Normal (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 217.562488 MB), EncodeSpeed: Fast
+[2023.03.26-10.24.16:295][961]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.03.26-10.24.16:314][961]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.03.26-10.24.26:185][753]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\bucket.fbx)
+[2023.03.26-10.24.26:191][753]LogFbx: Loading FBX Scene from D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\bucket.fbx
+[2023.03.26-10.24.26:195][753]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.26-10.24.26:195][753]FBXImport: Warning: Can't detect import type. No mesh is found or animation track. 
+[2023.03.26-10.24.31:494][753]LogSlate: Window 'Mensaje' being destroyed
+[2023.03.26-10.24.31:499][753]Message dialog closed, result: Ok, title: Mensaje, text: Failed to import 'D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\bucket.fbx'. Failed to create asset '/Game/modelos/rompible/cubeta/bucket'.
+Please see Output Log for details.
+[2023.03.26-10.24.31:500][753]LogAssetTools: Warning: Failed to import 'D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\bucket.fbx'. Failed to create asset '/Game/modelos/rompible/cubeta/bucket'.
+Please see Output Log for details.
+[2023.03.26-10.24.34:557][ 39]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.03.26-10.24.34:571][ 39]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.03.26-10.24.46:997][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.03.26-10.24.47:963][633]LogSlate: Window 'Delete Assets' being destroyed
+[2023.03.26-10.24.47:976][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.03.26-10.24.47:983][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.03.26-10.24.47:988][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.03.26-10.25.56:107][245]LogInterchangeEngine: [Pending] Importing
+[2023.03.26-10.25.56:107][245]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.03.26-10.25.56:159][245]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/AO.AO (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.25.56:163][245]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Base_Color.Base_Color (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.25.56:166][245]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.03.26-10.25.56:166][245]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.25.56:248][245]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\MetalBucket_FBX.fbx)
+[2023.03.26-10.25.56:254][245]LogFbx: Loading FBX Scene from D:\Data\Escritorio\Facultad\Escenarios De videojuegos\modelos\rompible\cubeta\MetalBucket_FBX.fbx
+[2023.03.26-10.25.56:258][245]LogFbx: FBX Scene Loaded Succesfully
+[2023.03.26-10.25.57:650][245]LogSlate: Window 'Opciones de importación de FBX' being destroyed
+[2023.03.26-10.25.57:728][245]LogFbx: Display: Triangulating static mesh Cylinder
+[2023.03.26-10.25.57:753][245]LogStaticMesh: Display: Generando la malla estática MetalBucket_FBX...
+[2023.03.26-10.25.57:767][245]LogStaticMesh: Built static mesh [0.01s] /Game/modelos/rompible/cubeta/MetalBucket_FBX.MetalBucket_FBX
+[2023.03.26-10.25.57:782][245]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.03.26-10.25.57:830][245]LogInterchangeEngine: [Pending] Importing
+[2023.03.26-10.25.57:830][245]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.03.26-10.25.57:830][245]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.03.26-10.25.57:893][245]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Metallic.Metallic (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.25.57:896][245]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.03.26-10.25.57:896][245]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.03.26-10.25.57:896][245]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Roughness.Roughness (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 121.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.25.57:939][246]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Normal_Map.Normal_Map (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2023.03.26-10.25.57:957][246]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.25.57:960][246]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.25.57:991][246]LogInterchangeEngine: [Success] Import Done
+[2023.03.26-10.25.58:020][246]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.03.26-10.25.58:022][246]LogTexture: Display: Building textures: /Game/modelos/rompible/cubeta/Normal_Map.Normal_Map (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 213.562488 MB), EncodeSpeed: Fast
+[2023.03.26-10.25.59:899][346]LogSlate: Window 'Buscador de contenido' being destroyed
+[2023.03.26-10.25.59:917][346]LogSlate: Window 'Buscador de contenido' being destroyed
+[2023.03.26-10.26.00:630][411]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.03.26-10.26.00:648][411]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.03.26-10.26.09:879][265]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/modelos/rompible/cubeta/MetalBucket_FBX.MetalBucket_FBX
+[2023.03.26-10.26.09:943][265]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.26-10.26.10:190][265]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.03.26-10.26.19:067][847]LogShaderCompilers: Display: ================================================
+[2023.03.26-10.26.19:067][847]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.26-10.26.19:067][847]LogShaderCompilers: Display: Total job queries 34036, among them cache hits 31739 (93.25%)
+[2023.03.26-10.26.19:067][847]LogShaderCompilers: Display: Tracking 2128 distinct input hashes that result in 690 distinct outputs (32.42%)
+[2023.03.26-10.26.19:067][847]LogShaderCompilers: Display: RAM used: 6.02 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.37%
+[2023.03.26-10.26.19:067][847]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.26-10.26.19:067][847]LogShaderCompilers: Display: Shaders Compiled: 1487
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Jobs assigned 1495, completed 1487 (99.46%)
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Average time worker was idle: 84.83 s
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Time job spent in pending queue: average 0.53 s, longest 8.66 s
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Job execution time: average 1.86 s, max 10.52 s
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Job life time (pending + execution): average 2.39 s, max 11.43
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 261.07 s
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Jobs were issued in 1186 batches (only local compilation was used), average 1.26 jobs/batch
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Average processing rate: 5.70 jobs/sec
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Total thread time: 1020.08 s
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Total thread preprocess time: 70.25 s
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Percentage time preprocessing: 6.89%
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Effective parallelization: 3.91 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   55 times, average 1.95 sec, max 5.90 sec, min 0.38 sec)
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    2 times, average 0.96 sec, max 1.30 sec, min 0.62 sec)
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   59 times, average 0.95 sec, max 1.32 sec, min 0.69 sec)
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   59 times, average 0.94 sec, max 1.26 sec, min 0.59 sec)
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   59 times, average 0.94 sec, max 1.23 sec, min 0.67 sec)
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.88% of total time (compiled  194 times, average 0.68 sec, max 1.07 sec, min 0.40 sec)
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.05% of total time (compiled  188 times, average 0.60 sec, max 2.17 sec, min 0.41 sec)
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display:                                             FDebugViewModePS - 10.50% of total time (compiled   55 times, average 1.95 sec, max 5.90 sec, min 0.38 sec)
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.01% of total time (compiled  168 times, average 0.49 sec, max 0.81 sec, min 0.35 sec)
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.47% of total time (compiled   59 times, average 0.95 sec, max 1.32 sec, min 0.69 sec)
+[2023.03.26-10.26.19:068][847]LogShaderCompilers: Display: ================================================
+[2023.03.26-10.26.20:758][943]LogAssetEditorSubsystem: Opening Asset editor for Material /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial
+[2023.03.26-10.26.20:762][943]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.26-10.26.20:845][943]LogMaterial: Display: Missing cached shadermap for Preview:WorldGridMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: B837CF89EA89F166115483DBAE081CE442D18137), compiling. Is special engine material.
+[2023.03.26-10.26.20:850][943]LogMaterial: Display: Missing cached shadermap for Preview:WorldGridMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: FA7C68E1C47F0FBA3230BC31A8400E6C3596AFD6), compiling. Is special engine material.
+[2023.03.26-10.26.25:710][943]LogSlate: Window 'Warning: Editing Default Material' being destroyed
+[2023.03.26-10.26.25:742][943]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.26.25:742][943]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.03.26-10.26.25:742][943]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.26.25:742][943]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.26.25:747][943]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.03.26-10.26.26:167][952]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.26.26:167][952]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.03.26-10.26.26:167][952]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.26.26:167][952]MaterialEditorStats: Shader Count: 1
+[2023.03.26-10.26.26:441][970]MaterialEditorStats: Base pass shader: 201 instructions
+[2023.03.26-10.26.26:441][970]MaterialEditorStats: Base pass vertex shader: 254 instructions
+[2023.03.26-10.26.26:441][970]MaterialEditorStats: Texture samplers: 4/16
+[2023.03.26-10.26.26:441][970]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.03.26-10.26.26:441][970]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.26.26:441][970]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.26.42:447][201]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.03.26-10.26.42:447][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.26-10.27.03:892][145]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.03.26-10.27.03:901][145]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.03.26-10.27.03:912][146]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.03.26-10.27.08:994][496]LogContentBrowser: Attempting asset rename: NewMaterial -> Cubeta
+[2023.03.26-10.27.09:116][496]LogContentBrowser: End creating deferred item NewMaterial
+[2023.03.26-10.27.17:932][ 83]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/modelos/rompible/cubeta/Cubeta.Cubeta
+[2023.03.26-10.27.17:935][ 83]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.26-10.27.18:022][ 83]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.27.18:022][ 83]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.27.18:022][ 83]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.27.18:062][ 83]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.03.26-10.27.18:879][136]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.27.18:879][136]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.27.18:879][136]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.27.18:879][136]MaterialEditorStats: Shader Count: 3
+[2023.03.26-10.27.18:982][144]MaterialEditorStats: Base pass shader: 161 instructions
+[2023.03.26-10.27.18:982][144]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.27.18:982][144]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.27.18:982][144]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.27.18:982][144]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.27.23:658][477]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.27.23:658][477]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.27.23:658][477]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.27.23:713][479]MaterialEditorStats: Base pass shader: 161 instructions
+[2023.03.26-10.27.23:713][479]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.03.26-10.27.23:713][479]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.27.23:713][479]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.26-10.27.23:713][479]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.27.39:333][645]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.27.39:333][645]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.03.26-10.27.39:333][645]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.39:333][645]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.27.39:694][668]MaterialEditorStats: Texture samplers: 1/16
+[2023.03.26-10.27.39:694][668]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.03.26-10.27.39:694][668]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.39:694][668]MaterialEditorStats: Shader Count: 1
+[2023.03.26-10.27.40:003][689]MaterialEditorStats: Base pass shader: 164 instructions
+[2023.03.26-10.27.40:003][689]MaterialEditorStats: Base pass vertex shader: 254 instructions
+[2023.03.26-10.27.40:003][689]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.26-10.27.40:003][689]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.03.26-10.27.40:003][689]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.40:003][689]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.27.40:978][755]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.27.40:978][755]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.03.26-10.27.40:978][755]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.40:978][755]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.27.41:424][785]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.27.41:425][785]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.03.26-10.27.41:425][785]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.41:425][785]MaterialEditorStats: Shader Count: 1
+[2023.03.26-10.27.41:724][805]MaterialEditorStats: Base pass vertex shader: 254 instructions
+[2023.03.26-10.27.41:724][805]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.26-10.27.41:724][805]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.03.26-10.27.41:724][805]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.41:724][805]MaterialEditorStats: Shader Count: 3
+[2023.03.26-10.27.41:832][813]MaterialEditorStats: Base pass shader: 170 instructions
+[2023.03.26-10.27.41:832][813]MaterialEditorStats: Base pass vertex shader: 254 instructions
+[2023.03.26-10.27.41:832][813]MaterialEditorStats: Texture samplers: 4/16
+[2023.03.26-10.27.41:832][813]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.03.26-10.27.41:832][813]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.41:832][813]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.27.44:723][ 21]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.27.44:723][ 21]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.03.26-10.27.44:723][ 21]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.44:723][ 21]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.27.45:132][ 48]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.26-10.27.45:132][ 48]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.03.26-10.27.45:132][ 48]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.45:132][ 48]MaterialEditorStats: Shader Count: 1
+[2023.03.26-10.27.45:428][ 68]MaterialEditorStats: Base pass vertex shader: 254 instructions
+[2023.03.26-10.27.45:428][ 68]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.26-10.27.45:428][ 68]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.03.26-10.27.45:428][ 68]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.45:428][ 68]MaterialEditorStats: Shader Count: 3
+[2023.03.26-10.27.45:526][ 75]MaterialEditorStats: Base pass shader: 172 instructions
+[2023.03.26-10.27.45:526][ 75]MaterialEditorStats: Base pass vertex shader: 254 instructions
+[2023.03.26-10.27.45:526][ 75]MaterialEditorStats: Texture samplers: 5/16
+[2023.03.26-10.27.45:526][ 75]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.03.26-10.27.45:526][ 75]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.45:526][ 75]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.27.58:657][ 50]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.27.58:657][ 50]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.03.26-10.27.58:657][ 50]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.58:657][ 50]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.27.59:210][ 85]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.26-10.27.59:210][ 85]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.03.26-10.27.59:210][ 85]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.59:210][ 85]MaterialEditorStats: Shader Count: 1
+[2023.03.26-10.27.59:411][ 99]MaterialEditorStats: Base pass vertex shader: 254 instructions
+[2023.03.26-10.27.59:411][ 99]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.26-10.27.59:411][ 99]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.03.26-10.27.59:411][ 99]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.59:411][ 99]MaterialEditorStats: Shader Count: 3
+[2023.03.26-10.27.59:509][106]MaterialEditorStats: Base pass shader: 172 instructions
+[2023.03.26-10.27.59:509][106]MaterialEditorStats: Base pass vertex shader: 254 instructions
+[2023.03.26-10.27.59:509][106]MaterialEditorStats: Texture samplers: 5/16
+[2023.03.26-10.27.59:509][106]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.03.26-10.27.59:509][106]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.27.59:509][106]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.28.03:359][367]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.26-10.28.03:359][367]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.03.26-10.28.03:359][367]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.28.03:359][367]MaterialEditorStats: Shader Count: 0
+[2023.03.26-10.28.03:817][396]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.26-10.28.03:817][396]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.03.26-10.28.03:817][396]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.28.03:817][396]MaterialEditorStats: Shader Count: 1
+[2023.03.26-10.28.04:114][417]MaterialEditorStats: Base pass vertex shader: 254 instructions
+[2023.03.26-10.28.04:114][417]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.26-10.28.04:114][417]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.03.26-10.28.04:114][417]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.28.04:114][417]MaterialEditorStats: Shader Count: 3
+[2023.03.26-10.28.04:208][424]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.03.26-10.28.04:208][424]MaterialEditorStats: Base pass vertex shader: 254 instructions
+[2023.03.26-10.28.04:208][424]MaterialEditorStats: Texture samplers: 6/16
+[2023.03.26-10.28.04:208][424]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.03.26-10.28.04:208][424]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.28.04:208][424]MaterialEditorStats: Shader Count: 4
+[2023.03.26-10.28.07:954][689]LogMaterialEditor: Applying material Cubeta
+[2023.03.26-10.28.08:451][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.03.26-10.28.09:491][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.03.26-10.28.12:348][875]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.26-10.28.12:419][875]LogSavePackage: Moving output files for package: /Game/modelos/rompible/cubeta/MetalBucket_FBX
+[2023.03.26-10.28.12:419][875]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/MetalBucket_FBXF58C65964D82EC381C3EDAB84CF0DE65.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/rompible/cubeta/MetalBucket_FBX.uasset'
+[2023.03.26-10.28.12:648][875]LogFileHelpers: InternalPromptForCheckoutAndSave took 300 ms (total: 1:03 min)
+[2023.03.26-10.28.12:651][875]AssetCheck: New page: Asset Save: MetalBucket_FBX
+[2023.03.26-10.28.12:651][875]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/modelos/rompible/cubeta/MetalBucket_FBX.MetalBucket_FBX
+[2023.03.26-10.28.14:601][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.03.26-10.28.14:716][  4]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.26-10.28.14:785][  4]LogSavePackage: Moving output files for package: /Game/modelos/rompible/cubeta/AO
+[2023.03.26-10.28.14:785][  4]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/AO5BAB0AC446CF97E87485E0873B0C80A1.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/rompible/cubeta/AO.uasset'
+[2023.03.26-10.28.14:813][  4]LogSavePackage: Moving output files for package: /Game/modelos/rompible/cubeta/Base_Color
+[2023.03.26-10.28.14:813][  4]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/Base_Color8C281B84498B4BDD7CC9EF848F629812.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/rompible/cubeta/Base_Color.uasset'
+[2023.03.26-10.28.14:824][  4]LogSavePackage: Moving output files for package: /Game/modelos/rompible/cubeta/Metallic
+[2023.03.26-10.28.14:824][  4]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/MetallicC68DAA0941954AD6CC9B438C5ACD864D.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/rompible/cubeta/Metallic.uasset'
+[2023.03.26-10.28.14:850][  4]LogSavePackage: Moving output files for package: /Game/modelos/rompible/cubeta/Normal_Map
+[2023.03.26-10.28.14:850][  4]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/Normal_MapE376BB124E699A9733282592D736B629.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/rompible/cubeta/Normal_Map.uasset'
+[2023.03.26-10.28.14:860][  4]LogSavePackage: Moving output files for package: /Game/modelos/rompible/cubeta/Roughness
+[2023.03.26-10.28.14:860][  4]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/Roughness09CE1E5A424A930BA8AE9CAD940A275B.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/rompible/cubeta/Roughness.uasset'
+[2023.03.26-10.28.16:343][  4]LogSavePackage: Moving output files for package: /Game/modelos/rompible/cubeta/Cubeta
+[2023.03.26-10.28.16:343][  4]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/CubetaA1F38FDB43FA2B9BC71359AD45F2625C.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/modelos/rompible/cubeta/Cubeta.uasset'
+[2023.03.26-10.28.16:849][  4]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.13 sec (total: 1:05 min)
+[2023.03.26-10.28.16:852][  4]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.26-10.28.16:852][  4]LogContentValidation: Display: Validating /Script/Engine.Material /Game/modelos/rompible/cubeta/Cubeta.Cubeta
+[2023.03.26-10.28.16:852][  4]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/modelos/rompible/cubeta/Roughness.Roughness
+[2023.03.26-10.28.16:852][  4]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/modelos/rompible/cubeta/Normal_Map.Normal_Map
+[2023.03.26-10.28.16:852][  4]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/modelos/rompible/cubeta/Metallic.Metallic
+[2023.03.26-10.28.16:852][  4]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/modelos/rompible/cubeta/Base_Color.Base_Color
+[2023.03.26-10.28.16:853][  4]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/modelos/rompible/cubeta/AO.AO
+[2023.03.26-10.28.16:854][  4]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.03.26-10.28.16:854][  4]MaterialEditorStats: Base pass vertex shader: 254 instructions
+[2023.03.26-10.28.16:854][  4]MaterialEditorStats: MaxSampler: 227 instructions
+[2023.03.26-10.28.16:854][  4]MaterialEditorStats: Texture samplers: 8/16
+[2023.03.26-10.28.16:854][  4]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.03.26-10.28.16:854][  4]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.03.26-10.28.16:854][  4]MaterialEditorStats: Shader Count: 16
+[2023.03.26-10.28.18:070][ 71]LogSlate: Window 'Cubeta' being destroyed
+[2023.03.26-10.28.18:076][ 71]LogSlate: Window 'Cubeta' being destroyed
+[2023.03.26-10.28.18:102][ 71]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.03.26-10.28.18:102][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.26-10.28.18:116][ 71]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.03.26-10.28.18:116][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.26-10.28.23:210][581]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/modelos/rompible/cubeta/MetalBucket_FBX.MetalBucket_FBX
+[2023.03.26-10.28.23:210][581]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/modelos/rompible/cubeta/MetalBucket_FBX.MetalBucket_FBX
+[2023.03.26-10.28.23:210][581]LogActorFactory: Actor Factory spawned StaticMesh /Game/modelos/rompible/cubeta/MetalBucket_FBX.MetalBucket_FBX as actor: StaticMeshActor /Game/Menu/LandscapeEV.LandscapeEV:PersistentLevel.StaticMeshActor_26
+[2023.03.26-10.28.24:752][745]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/modelos/rompible/cubeta/MetalBucket_FBX.MetalBucket_FBX
+[2023.03.26-10.28.24:752][745]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/modelos/rompible/cubeta/MetalBucket_FBX.MetalBucket_FBX
+[2023.03.26-10.28.24:754][745]LogActorFactory: Actor Factory spawned StaticMesh /Game/modelos/rompible/cubeta/MetalBucket_FBX.MetalBucket_FBX as actor: StaticMeshActor /Game/Menu/LandscapeEV.LandscapeEV:PersistentLevel.StaticMeshActor_27
+[2023.03.26-10.28.51:633][541]LogEditorViewport: Clicking Background
+[2023.03.26-10.29.25:831][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.03.26-10.29.25:942][242]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.26-10.29.25:993][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.03.26-10.29.26:101][242]LogSavePackage: Moving output files for package: /Game/Menu/LandscapeEV
+[2023.03.26-10.29.26:102][242]LogSavePackage: Moving '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Saved/LandscapeEVE7269AB2438C836E37F75ABD6EA3C993.tmp' to '../../../../../Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject/Content/Menu/LandscapeEV.umap'
+[2023.03.26-10.29.26:115][242]LogFileHelpers: Saving map 'LandscapeEV' took 0.128
+[2023.03.26-10.29.26:120][242]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 1:06 min)
+[2023.03.26-10.29.26:124][242]AssetCheck: New page: Asset Save: LandscapeEV
+[2023.03.26-10.29.26:124][242]LogContentValidation: Display: Validating /Script/Engine.World /Game/Menu/LandscapeEV.LandscapeEV
+[2023.03.26-10.29.32:006][847]LogEditorViewport: Clicking Background
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Bridge/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Bridge/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/2D/Paper2D/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Interchange/Runtime/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Animation/ControlRig/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Animation/IKRig/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/FX/Niagara/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/GLTFImporter/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/GLTFImporter/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/Metasound/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/WaveTable/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/Synthesis/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/VirtualProduction/Takes/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Media/MediaPlate/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Enterprise/GLTFExporter/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosCaching/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/Dataflow/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:935][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:936][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:936][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:936][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:936][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/UVEditor/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Experimental/UVEditor/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:936][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.40:936][363]SourceControl: fatal: D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'D:/Data/UnrealEngine/UE_5.1/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'D:/Data/Escritorio/Facultad/Escenarios De videojuegos/PIA/MyProject/MyProject'
+[2023.03.26-10.29.46:147][363]LogSlate: Window 'Enviar archivos' being destroyed
+[2023.03.26-10.29.47:638][363]LogSourceControl: commit successful: [master d802b4f] modelos 3
+[2023.03.26-10.29.47:839][363]SourceControl: [master d802b4f] modelos 3
+[2023.03.26-10.29.47:839][363]SourceControl:  22 files changed, 0 insertions(+), 0 deletions(-)
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/lentes/Material__10.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/lentes/Material__3.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/lentes/Material__4.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/lentes/Material__6.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/lentes/Material__7.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/lentes/Material__8.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/lentes/Material__9.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/lentes/glasses_02.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/rompible/caja/Crate1.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/rompible/caja/Object_000.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/rompible/caja/WdCrt_b.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/rompible/caja/WdCrt_c.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/rompible/caja/WdCrt_df.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/rompible/caja/WdCrt_sp.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/rompible/cubeta/AO.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/rompible/cubeta/Base_Color.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/rompible/cubeta/Cubeta.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/rompible/cubeta/MetalBucket_FBX.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/rompible/cubeta/Metallic.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/rompible/cubeta/Normal_Map.uasset
+[2023.03.26-10.29.47:839][363]SourceControl:  create mode 100644 Content/modelos/rompible/cubeta/Roughness.uasset
+[2023.03.26-10.29.47:850][363]SourceControl: Commited [master d802b4f] modelos 3.
